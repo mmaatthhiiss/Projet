@@ -1,0 +1,120 @@
+
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color:  rgb(85, 175, 202); 	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+#propo{
+	font-size: xx-large;
+	text-align: center;
+	min-height: 90vh;
+}
+#competence{
+	font-size: xx-large;
+	text-align: center;
+	min-height: 90vh;
+}
+#experience {
+	font-size: large;
+	text-align: center;
+	min-height: 90vh;
+}
+#formation{
+	font-size: xx-large;
+	text-align: center;
+	min-height: 90vh;
+	
+}
+#contact{
+	min-height: 85vh;
+	padding-top: 80px;
+	text-align: center;
+}
+
+
+#presentation{
+	font-size: xx-large;
+	text-align: center;
+	min-height: 90vh;
+
+}
+#premierephoto{
+
+position: relative;
+
+min-height: 50vh;
+padding-bottom: 10px;
+
+
+}
+
+footer{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgb(85, 175, 202);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+section{
+	display: none;
+	
+}
+
+
+
+section:not(:target), section:target ~ #presentation{
+	display: none ; 
+}
+section:target{
+	display:block;
+}
+h1{
+	padding-top: 80px;
+
+	text-decoration: underline overline rgb(85, 175, 202);	
+}
+
+#photo2{
+	margin-top: 50px;
+	height:300px;
+	width: 300px;
+	margin-right: 30px;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+#competence article{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#experience article {
+	width: 40vh;	
+	height: 40vh;
+	margin-left: 700px;
+	margin-top: 100px;
+	border: solid rgb(85, 175, 202);
+
+	border-radius: 25px;
+}	
