@@ -1,6 +1,21 @@
-nom : Salvador Allende
-etablissement : Lycée
-dateDebut: 2018
-dateFin: 2021
-Lieu: Hérouville Saint Clair
-Contenu : Baccalauréat
+-
+  nom : " Nom : SupAvenir"
+  etablissement : "etablissement : Bts"
+  dateDebut: "dateDebut : 2021"
+  dateFin: "dateFin : en cours"
+  Lieu: "Lieu: Caen"
+  Contenu : "Contenu : Bts"
+-
+  nom : " nom :   Salvador Allende"
+  etablissement : "etablissement :   Lycée"
+  dateDebut: " dateDebut : 2018"
+  dateFin: "dateFin :  2021"
+  Lieu: "Lieu :  Hérouville Saint Clair"
+  Contenu : "  Contenu : Baccalauréat"
+-
+  nom : "nom : Boris vian "
+  etablissement : "etablissement : Collège"
+  dateDebut: "dateDebut : 2014"
+  dateFin: "dateFin:  2018"
+  Lieu: "Lieu : Mézidon-Canon"
+  Contenu : "Contenu :  Brevet" 

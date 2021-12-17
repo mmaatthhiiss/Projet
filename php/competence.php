@@ -16,8 +16,8 @@ $data=yaml_parse_file('data/compétence.yaml');
                             echo '<progress id="file" max="100" value="40"> 40% </progress>'.'<br>';
                         echo '<label for="file">CSS :</label>'.'<br>';
                             echo '<progress id="file" max="100" value="50"> 50% </progress>'.'<br>';
-                                echo '<label for="file">Linux</label>'.'<br>';
-                    echo '<progress id="file" max="100" value="70"> 70% </progress>'.'<br>';
+                                echo '<label for="file">Python</label>'.'<br>';
+                    echo '<progress id="file" max="100" value="100"> 7)100% </progress>'.'<br>';
 
                 echo"</div>";
 

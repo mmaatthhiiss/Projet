@@ -9,6 +9,7 @@ header{
 	padding-bottom: 30px;
 	display: flex;
 	justify-content: space-around;
+	z-index: 3;
 	
 }
 header a{
@@ -29,7 +30,7 @@ header a{
 #experience {
 	font-size: large;
 	text-align: center;
-	min-height: 90vh;
+	min-height: 85vh;
 }
 #formation{
 	font-size: xx-large;
@@ -51,7 +52,7 @@ header a{
 
 }
 #premierephoto{
-
+z-index: 2;
 position: relative;
 
 min-height: 50vh;
@@ -76,9 +77,6 @@ section{
 	display: none;
 	
 }
-
-
-
 section:not(:target), section:target ~ #presentation{
 	display: none ; 
 }
@@ -87,7 +85,7 @@ section:target{
 }
 h1{
 	padding-top: 80px;
-
+	text-align: center;
 	text-decoration: underline overline rgb(85, 175, 202);	
 }
 
@@ -118,3 +116,10 @@ label {
 
 	border-radius: 25px;
 }	
+
+form{
+	min-height: 85vh;
+	padding-top: 80px;
+	text-align: center;
+
+}
